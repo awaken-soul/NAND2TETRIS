@@ -1,6 +1,6 @@
 CHIP NOT {
   IN a;
-  OUT b;
+  OUT out;
   PARTS:
   NAND(a=a, b=a, out=out);
 }
