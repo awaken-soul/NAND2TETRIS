@@ -1,0 +1,7 @@
+CHIP AND{
+  IN a,b;
+  OUT out;
+  PARTS:
+    NAND(a=a,b=b,out=aNandb);
+    NAND(a=aNandb, b = aNandb, out = out);
+}
